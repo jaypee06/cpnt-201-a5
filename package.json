@@ -1,0 +1,21 @@
+{
+  "name": "TailwindActivity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Build-outputcss": "npx tailwindcss build -i assets/style.css -o assets/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
