@@ -4,10 +4,6 @@
 @tailwind screens;
 
 
-.nav1{
-  @apply bg-blue-500 hover: bg-blue-700 text-white;
-}
-
 body{
   margin:0 ;
   box-sizing: border-box;
